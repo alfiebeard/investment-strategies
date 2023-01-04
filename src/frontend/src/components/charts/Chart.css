@@ -1,0 +1,45 @@
+.mainTickerChart {
+    height: 90% !important;
+}
+
+.mainTickerChartSlider {
+  height: 10%;
+  padding: 0 2rem !important;
+}
+
+.resetTickerChartZoomContainer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  display: flex;
+}
+
+.resetTickerChartZoom {
+  z-index: 2;
+  position: relative;
+  top: 2.4rem;
+  width: auto !important;
+  font-size: 0.75rem !important;
+  padding: 0.25rem 0.5rem !important;
+  margin: auto;
+}
+
+.tickerChartRangeSlider {
+  padding: 0 2rem;;
+  border: none !important;
+  box-shadow: none !important;
+  width: 60% !important;
+  height: 10% !important;
+}
+
+.mainTickerChartSliderDateCaption {
+  width: 20%;
+  text-align: center;
+}
+
+.multi-range-slider .thumb .caption * {
+  color: black;
+  background-color: white;
+  box-shadow: none;
+  border-radius: 0;
+}

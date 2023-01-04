@@ -1,0 +1,9 @@
+.tickerSuggestions {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.tickerSuggestion {
+  width: 50%;
+}

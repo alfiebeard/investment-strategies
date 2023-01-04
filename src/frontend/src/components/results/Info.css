@@ -1,0 +1,9 @@
+.tickerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tickerInfoPrice {
+  text-align: center;
+}

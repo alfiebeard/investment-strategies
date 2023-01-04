@@ -1,0 +1,10 @@
+.strategyResultsContainer {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.strategyResultsTable {
+  overflow: scroll;
+  flex: 1 1 auto;
+}

@@ -1,0 +1,25 @@
+.strategyComparisons {
+  height: 90px;
+  overflow-y: scroll;
+  border: darkslategrey solid 1px;
+}
+
+.strategyComparisonOption {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.strategyComparisonOptionButton {
+  width: 100%;
+}
+
+.strategyComparisonOptionButton.active {
+  background-color: #0b5ed7;
+}
+
+.strategyComparisonOptionRemoveButton {
+  width: 2.5rem;
+  text-align: center;
+}
+  
