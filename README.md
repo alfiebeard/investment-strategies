@@ -50,6 +50,7 @@ pip install -r requirements.txt
 4. Build the frontend
 ```
 cd src/frontend
+npm install
 npm run build
 ```
 
@@ -63,7 +64,7 @@ Navigate to http://127.0.0.1:8080/
 ## Modifying the GUI
 The GUI is a React app, it's best modified in development mode. Keep the backend running with the instructions above and then run the following commands.
 ```
-npm install
+cd frontend
 npm run start
 ```
 Navigate to http://localhost:3000 and follow any changes from here.
