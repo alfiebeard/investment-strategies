@@ -47,9 +47,15 @@ cd investment-strategies
 pip install -r requirements.txt
 ```
 
+4. Build the frontend
+```
+cd src/frontend
+npm run build
+```
+
 ## Running
 ```
-cd src
+cd ..
 python app.py
 ```
 Navigate to http://127.0.0.1:8080/
