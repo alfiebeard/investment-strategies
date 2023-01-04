@@ -43,11 +43,13 @@ conda activate investment_strategies
 ```
 3. Install requirements.txt
 ```
+cd investment-strategies
 pip install -r requirements.txt
 ```
 
 ## Running
 ```
+cd src
 python app.py
 ```
 Navigate to http://127.0.0.1:8080/
