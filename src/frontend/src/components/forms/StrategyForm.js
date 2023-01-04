@@ -53,7 +53,6 @@ function StrategyForm(props) {
         strategyFormData = {"strategy": parseAdditionalParameters(props.strategyComparisons, allStrategies)};
       }
       else {
-        console.log(strategyForm);
         strategyFormData = {"strategy": parseAdditionalParameters({"default": strategyForm}, allStrategies)};
       }
 
