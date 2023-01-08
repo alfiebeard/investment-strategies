@@ -65,8 +65,7 @@ class Strategy:
 
     def summarise(self, df):
         """Summarise a strategy"""
-        dt_format = get_datetime_format()
-        investment_dates = [self.start_date.strftime(dt_format), self.end_date.strftime(dt_format)]
+        investment_dates = [self.start_date.isoformat(), self.end_date.isoformat()]
         investment_time = self.end_date - self.start_date
         total_invested = df.loc[self.end_date, 'investment_cum']
         value = round(df.loc[self.end_date, 'total_value'], 2)
